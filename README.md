@@ -88,23 +88,23 @@ Employee-management-system
 ## Application Screenshots
 
 ### Login Page
-(https://github.com/venkatvemula1432/Employee-management-system/blob/main/Screenshots/AddEmployee.png)
+![Login](./Screenshots/AddEmployee.png)
 ---
 
 ### Register Page
-![Register](./screenshots/Register.png)
+![Register](./Screenshots/Register.png)
 ---
 
 ### Employee Dashboard
-![ViewEmployeeDashBoard](./screenshots/ViewEmployeeDashBoard.png)
+![ViewEmployeeDashBoard](./Screenshots/ViewEmployeeDashBoard.png)
 ---
 
 ### Add Employee
-(https://github.com/venkatvemula1432/Employee-management-system/blob/main/Screenshots/AddEmployee.png)
+![AddEmployee](./Screenshots/AddEmployee.png)
 ---
 
 ### Update Employee Record
-![UpdateEmpRecord](./screenshots/UpdateEmpRecord.png)
+![UpdateEmpRecord](./Screenshots/UpdateEmpRecord.png)
 ---
 
 ## Installation & Setup
