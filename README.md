@@ -88,7 +88,7 @@ Employee-management-system
 ## Application Screenshots
 
 ### Login Page
-![Login](./screenshots/Login.png)
+(https://github.com/venkatvemula1432/Employee-management-system/blob/main/Screenshots/AddEmployee.png)
 ---
 
 ### Register Page
@@ -100,7 +100,7 @@ Employee-management-system
 ---
 
 ### Add Employee
-![AddEmployee](./screenshots/AddEmployee.png)
+(https://github.com/venkatvemula1432/Employee-management-system/blob/main/Screenshots/AddEmployee.png)
 ---
 
 ### Update Employee Record
