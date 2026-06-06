@@ -88,7 +88,7 @@ Employee-management-system
 ## Application Screenshots
 
 ### Login Page
-![Login](./Screenshots/AddEmployee.png)
+![Login](./Screenshots/Login.png)
 ---
 
 ### Register Page
