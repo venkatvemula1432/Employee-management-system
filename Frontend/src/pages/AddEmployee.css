@@ -1,0 +1,207 @@
+/* Background */
+.employee-page {
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(
+        -45deg,
+        #6a11cb,
+        #2575fc,
+        #00c9ff,
+        #8e2de2
+    );
+
+    background-size: 400% 400%;
+
+    animation: gradientMove 10s ease infinite;
+}
+
+/* Background Animation */
+@keyframes gradientMove {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* Main Card */
+.employee-card {
+    width: 100%;
+    max-width: 600px;
+    transition: 0.4s ease;
+    position: relative;
+    overflow: hidden;
+
+    background: rgba(255,255,255,0.12);
+
+    backdrop-filter: blur(18px);
+
+    border: 1px solid rgba(255,255,255,0.25);
+
+    border-radius: 25px;
+
+    padding: 40px;
+
+    box-shadow:
+        0 15px 35px rgba(0,0,0,0.25);
+
+
+}
+
+.employee-card:hover {
+    transform: translateY(-8px);
+
+    box-shadow:
+        0 25px 50px rgba(0,0,0,0.35);
+}
+
+/* Heading */
+.employee-title {
+    text-align: center;
+
+    color: white;
+
+    font-size: 2.4rem;
+
+    font-weight: 800;
+
+    margin-bottom: 5px;
+
+    text-shadow:
+        0 0 15px rgba(255,255,255,.5);
+}
+
+.employee-subtitle {
+    text-align: center;
+
+    color: rgba(255,255,255,0.85);
+
+    margin-bottom: 30px;
+}
+
+/* Labels */
+.employee-card .form-label {
+    color: white;
+    font-weight: 600;
+}
+
+/* Inputs */
+.employee-card .form-control {
+    height: 55px;
+
+    border-radius: 14px;
+
+    border: none;
+
+    background: rgba(255,255,255,0.9);
+
+    transition: all .3s ease;
+}
+
+.employee-card .form-control:focus {
+    background: white;
+
+    transform: scale(1.02);
+
+    box-shadow:
+        0 0 15px #00ffff,
+        0 0 25px #00ffff;
+}
+
+/* Button */
+.employee-btn {
+    width: 100%;
+
+    height: 55px;
+
+    border: none;
+
+    border-radius: 14px;
+
+    background: linear-gradient(
+        90deg,
+        #ff416c,
+        #ff4b2b
+    );
+
+    color: white;
+
+    font-size: 18px;
+
+    font-weight: 700;
+
+    cursor: pointer;
+
+    transition: all .3s ease;
+}
+
+.employee-btn:hover {
+    transform: translateY(-3px);
+
+    box-shadow:
+        0 10px 30px rgba(255,75,43,.5);
+}
+
+/* Back Link */
+.back-link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.back-link a {
+    color: white;
+
+    font-weight: 600;
+
+    text-decoration: none;
+
+    transition: .3s ease;
+}
+
+.back-link a:hover {
+    color: #ffe600;
+
+    text-shadow:
+        0 0 10px #ffe600;
+}
+.employee-card::before {
+    content: "";
+
+    position: absolute;
+
+    top: -50%;
+    left: -50%;
+
+    width: 200%;
+    height: 200%;
+
+    background: linear-gradient(
+        transparent,
+        rgba(255,255,255,.2),
+        transparent
+    );
+
+    transform: rotate(45deg);
+
+    animation: shine 4s linear infinite;
+}
+
+@keyframes shine {
+    from {
+        transform: translateX(-100%) rotate(45deg);
+    }
+
+    to {
+        transform: translateX(100%) rotate(45deg);
+    }
+}
