@@ -88,23 +88,23 @@ Employee-management-system
 ## Application Screenshots
 
 ### Login Page
-
+![Login](./screenshots/Login.png)
 ---
 
 ### Register Page
-
+![Register](./screenshots/Register.png)
 ---
 
 ### Employee Dashboard
-
+![ViewEmployeeDashBoard](./screenshots/ViewEmployeeDashBoard.png)
 ---
 
 ### Add Employee
-
+![AddEmployee](./screenshots/AddEmployee.png)
 ---
 
 ### Update Employee Record
-
+![UpdateEmpRecord](./screenshots/UpdateEmpRecord.png)
 ---
 
 ## Installation & Setup
